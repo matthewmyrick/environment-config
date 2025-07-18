@@ -1,0 +1,47 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "shift+cmd+g",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.newGroupRight",
+                "workbench.action.createTerminalEditor",
+                {
+                    "command": "workbench.action.terminal.sendSequence",
+
+                    "args": {
+                        "text": "gemini\n"
+                    }
+                }
+            ],
+        },
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.newGroupRight",
+                "workbench.action.createTerminalEditor",
+                {
+                    "command": "workbench.action.terminal.sendSequence",
+
+                    "args": {
+                        "text": "lazygit\n"
+                    }
+                }
+            ],
+        },
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.newGroupRight",
+                "workbench.action.createTerminalEditor"
+            ],
+        },
+    }
+]
